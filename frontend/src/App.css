@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header {
+  margin-bottom: 2rem;
+}
+
+.content-gaps-container {
+  width: 80%;
+  max-width: 960px;
+}
+
+.content-gaps-list {
+  list-style: none;
+  padding: 0;
+}
+
+.content-gap-item {
+  background-color: #3c4049;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.content-gap-item h2 {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.sources {
+  margin-top: 1rem;
+}
+
+.source-icon {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+  text-transform: capitalize;
+}
+
+.source-icon.reddit {
+  background-color: #ff4500;
+  color: white;
+}
+
+.source-icon.youtube {
+  background-color: #ff0000;
+  color: white;
+}

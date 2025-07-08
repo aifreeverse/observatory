@@ -1,0 +1,9 @@
+fastapi
+sqlalchemy
+apscheduler
+praw
+spacy
+nltk
+requests
+python-dotenv
+psycopg2-binary
